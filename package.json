@@ -1,10 +1,10 @@
 {
-  "name": "NextLevelWeek-Rocketseat",
+  "name": "nlw",
   "version": "1.0.0",
   "description": "Bootcamp by Rocketseat using Javascript, HTML5 and CSS3.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dangeorges8/NextLevelWeek-Rocketseat/issues"
   },
-  "homepage": "https://github.com/dangeorges8/NextLevelWeek-Rocketseat#readme"
+  "homepage": "https://github.com/dangeorges8/NextLevelWeek-Rocketseat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
